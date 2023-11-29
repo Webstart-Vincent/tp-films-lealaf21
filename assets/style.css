@@ -1,0 +1,198 @@
+body {
+    font-family: "Syne", sans-serif;
+    font-weight: 400px;
+    color: #eaeace;
+    padding: 40px;
+    background-color: #404040;
+}
+img {
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 700px;
+}
+p {
+    font-size: 30px;
+}
+
+/* ------------------------- JOKER ------------------------- */
+.joker {
+    background: #c6c8ae;
+    border-radius: 80px;
+
+    padding: 120px;
+    height: calc(100dvh - 80px);
+    margin-bottom: 40px;
+
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 100%;
+    align-items: center;
+
+    gap: 60px;
+}
+.joker h1,
+.joker p {
+    color: #282823;
+}
+
+/* ------------------------- DOCTORSLEEP ------------------------- */
+.doctorsleep {
+    background: #b60504;
+    border-radius: 80px;
+    padding: 120px;
+    height: calc(100dvh - 80px);
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 100%;
+    align-items: center;
+    gap: 60px;
+}
+
+/* ------------------------- MALEFIQUE ------------------------- */
+.malefique {
+    background: #050505;
+    border-radius: 80px;
+    padding: 120px;
+    height: calc(100dvh - 80px);
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 100%;
+    align-items: center;
+    gap: 60px;
+}
+
+/* ------------------------- TERMINATOR ------------------------- */
+.terminator {
+    background: #7c4319;
+    border-radius: 80px;
+    padding: 120px;
+    height: calc(100dvh - 80px);
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 100%;
+    align-items: center;
+    gap: 60px;
+}
+
+/* ------------------------- THE LION KING ------------------------- */
+.lionking {
+    background: #311d0f;
+    border-radius: 80px;
+    padding: 120px;
+    height: calc(100dvh - 80px);
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 100%;
+    align-items: center;
+    gap: 60px;
+}
+
+/* ------------------------- Fast & Furious ------------------------- */
+.fastandfurious {
+    background: #17191e;
+    border-radius: 80px;
+    padding: 120px;
+    height: calc(100dvh - 80px);
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 100%;
+    align-items: center;
+    gap: 60px;
+}
+
+/* FORMAT TABLETTE PAYSAGE */
+@media (max-width: 1024px) {
+    img {
+        border-radius: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
+
+    .joker {
+        border-radius: 40px;
+        padding: 20px 20px 20px 31px;
+        gap: 27px;
+    }
+
+    .doctorsleep {
+        border-radius: 40px;
+        padding: 20px 20px 20px 31px;
+        gap: 27px;
+    }
+
+    .malefique {
+        border-radius: 40px;
+        padding: 20px 20px 20px 31px;
+        gap: 27px;
+    }
+
+    .terminator {
+        border-radius: 40px;
+        padding: 20px 20px 20px 31px;
+        gap: 27px;
+    }
+
+    .lionking {
+        border-radius: 40px;
+        padding: 20px 20px 20px 31px;
+        gap: 27px;
+    }
+
+    .fastandfurious {
+        border-radius: 40px;
+        padding: 20px 20px 20px 31px;
+        gap: 27px;
+    }
+}
+
+/* FORMAT TABLETTE PORTRAIT */
+@media (max-width: 768px) {
+    h1 {
+        display: none;
+    }
+    p {
+        display: none;
+    }
+    .joker {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .doctorsleep {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .malefique {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .terminator {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .lionking {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fastandfurious {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
