@@ -5,6 +5,7 @@ body {
     padding: 40px;
     background-color: #404040;
 }
+
 img {
     border-radius: 40px;
     max-width: 100%;
@@ -18,6 +19,19 @@ h1 {
 }
 p {
     font-size: 30px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.main {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;
+}
+.container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 /* ------------------------- JOKER ------------------------- */
@@ -35,6 +49,7 @@ p {
     align-items: center;
 
     gap: 60px;
+    scroll-snap-align: center;
 }
 .joker h1,
 .joker p {
@@ -53,6 +68,7 @@ p {
     grid-template-rows: 100%;
     align-items: center;
     gap: 60px;
+    scroll-snap-align: center;
 }
 
 /* ------------------------- MALEFIQUE ------------------------- */
@@ -67,6 +83,7 @@ p {
     grid-template-rows: 100%;
     align-items: center;
     gap: 60px;
+    scroll-snap-align: center;
 }
 
 /* ------------------------- TERMINATOR ------------------------- */
@@ -81,6 +98,7 @@ p {
     grid-template-rows: 100%;
     align-items: center;
     gap: 60px;
+    scroll-snap-align: center;
 }
 
 /* ------------------------- THE LION KING ------------------------- */
@@ -95,6 +113,7 @@ p {
     grid-template-rows: 100%;
     align-items: center;
     gap: 60px;
+    scroll-snap-align: center;
 }
 
 /* ------------------------- Fast & Furious ------------------------- */
@@ -108,6 +127,7 @@ p {
     grid-template-rows: 100%;
     align-items: center;
     gap: 60px;
+    scroll-snap-align: center;
 }
 
 /* FORMAT TABLETTE PAYSAGE */
